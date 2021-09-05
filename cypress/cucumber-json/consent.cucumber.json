@@ -1,0 +1,113 @@
+[
+  {
+    "description": "  Consent Feature Tests",
+    "keyword": "Feature",
+    "name": "Consent Functionality",
+    "line": 1,
+    "id": "consent-functionality",
+    "tags": [],
+    "uri": "consent.feature",
+    "elements": [
+      {
+        "id": "consent-functionality;verify-consent-is-functioning-properly",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify Consent is functioning properly",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is navigated to Didomi website",
+            "result": {
+              "status": "passed",
+              "duration": 2941000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Consent is shown properly",
+            "result": {
+              "status": "passed",
+              "duration": 327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User \"accepts\" consent by clicking on proper button",
+            "result": {
+              "status": "passed",
+              "duration": 1812000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Consent is closed out and user is navigated to the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "consent-functionality;verify-consent-is-functioning-properly",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify Consent is functioning properly",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is navigated to Didomi website",
+            "result": {
+              "status": "passed",
+              "duration": 2023000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Consent is shown properly",
+            "result": {
+              "status": "passed",
+              "duration": 343000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User \"declines\" consent by clicking on proper button",
+            "result": {
+              "status": "passed",
+              "duration": 1901000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Consent is closed out and user is navigated to the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
